@@ -1,0 +1,32 @@
+{
+  "appId": "com.frutesp.chamados",
+  "appName": "FRUTESP",
+  "webDir": "www",
+  "server": {
+    "url": "https://agrotesp.github.io/Frutesp/",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#071510"
+  },
+  "ios": {
+    "contentInset": "automatic",
+    "backgroundColor": "#071510"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#071510",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#071510"
+    }
+  }
+}
